@@ -12,6 +12,7 @@ import HeaderCartButton from "./components/Layout/HeaderCartButton";
 import { Route, Switch } from "react-router-dom";
 import { Nav, Navbar } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import Footer from "./Footer";
 
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
@@ -45,6 +46,7 @@ function App() {
         <img src={bakeryImg} alt='A table of breads' />
       </div>
 
+
       <Switch>
         <Route exact path='/'>
           <Home />
@@ -64,7 +66,11 @@ function App() {
           <NotFound />
         </Route>
       </Switch>
+
+      <Footer />
     </CartProvider>
+
+    
   );
 }
 
