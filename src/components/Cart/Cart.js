@@ -4,7 +4,7 @@ import { Fragment, useContext, useState } from 'react';
 import CartContext from '../../store/cart-context';
 import CartItem from './CartItem';
 import Checkout from './Checkout';
-
+import thanksImg from '../../assests/pexels-giftpunditscom-2072165.jpg'
 const Cart = props => {
     const [isCheckout, setIsCheckout] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -60,6 +60,7 @@ const Cart = props => {
 
     const didSubmitModalContent = <Fragment>
         <p>Successfully sent the order!</p>
+        <p><img src={thanksImg} alt="thanks message"/></p>
         <button className={classes.button} onClick={props.onClose}>Close</button>
     </Fragment>;
     return <Modal onClose={props.onClose}>
