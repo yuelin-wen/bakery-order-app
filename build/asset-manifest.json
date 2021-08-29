@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.95a8f284.chunk.css",
+    "main.js": "/static/js/main.51fe98c1.chunk.js",
+    "main.js.map": "/static/js/main.51fe98c1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d5263075.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d5263075.js.map",
+    "static/js/2.1116b370.chunk.js": "/static/js/2.1116b370.chunk.js",
+    "static/js/2.1116b370.chunk.js.map": "/static/js/2.1116b370.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.95a8f284.chunk.css.map": "/static/css/main.95a8f284.chunk.css.map",
+    "static/js/2.1116b370.chunk.js.LICENSE.txt": "/static/js/2.1116b370.chunk.js.LICENSE.txt",
+    "static/media/WechatIMG15202.b9eaed52.jpeg": "/static/media/WechatIMG15202.b9eaed52.jpeg",
+    "static/media/bake.d3c36568.jpeg": "/static/media/bake.d3c36568.jpeg",
+    "static/media/image-03-03-20-07-29-1.ccf3ce73.jpeg": "/static/media/image-03-03-20-07-29-1.ccf3ce73.jpeg",
+    "static/media/image-03-03-20-07-29-2.a56f7fb3.jpeg": "/static/media/image-03-03-20-07-29-2.a56f7fb3.jpeg",
+    "static/media/image-03-03-20-07-29-3.976a5c15.jpeg": "/static/media/image-03-03-20-07-29-3.976a5c15.jpeg",
+    "static/media/image-03-03-20-07-29-4.a4806f45.jpeg": "/static/media/image-03-03-20-07-29-4.a4806f45.jpeg",
+    "static/media/image-03-03-20-07-29-5.5f221dd2.jpeg": "/static/media/image-03-03-20-07-29-5.5f221dd2.jpeg",
+    "static/media/image-03-03-20-07-29.da63aec0.jpeg": "/static/media/image-03-03-20-07-29.da63aec0.jpeg",
+    "static/media/image-03-03-20-07-55-1.27853dec.jpeg": "/static/media/image-03-03-20-07-55-1.27853dec.jpeg",
+    "static/media/image-03-03-20-07-55-2.62fa686e.jpeg": "/static/media/image-03-03-20-07-55-2.62fa686e.jpeg",
+    "static/media/image-03-03-20-07-55-3.03dbe3c6.jpeg": "/static/media/image-03-03-20-07-55-3.03dbe3c6.jpeg",
+    "static/media/image-03-03-20-07-55.79d06433.jpeg": "/static/media/image-03-03-20-07-55.79d06433.jpeg",
+    "static/media/pexels-giftpunditscom-2072165.b5224552.jpg": "/static/media/pexels-giftpunditscom-2072165.b5224552.jpg",
+    "static/media/pexels-photo-1739748.56a60336.jpeg": "/static/media/pexels-photo-1739748.56a60336.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5263075.js",
+    "static/js/2.1116b370.chunk.js",
+    "static/css/main.95a8f284.chunk.css",
+    "static/js/main.51fe98c1.chunk.js"
+  ]
+}

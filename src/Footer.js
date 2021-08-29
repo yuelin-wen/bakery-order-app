@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return (
-        <p>© 2021 Copyright: Yuelin Wen</p>
+        <p style={{color: "white"}}>© 2021 Copyright: Yuelin Wen</p>
     )
 }
 
