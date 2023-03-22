@@ -19,9 +19,7 @@
     justify-content: center;
     align-items: center;
 }
-.about img {
-    width: 50%;
-}
+
 
 .galleryContainer{
     display: flex;
@@ -50,10 +48,6 @@
     align-items: center;
 }
 
-.sliderImg {
-    width: 80%;
-    height: 80vh;
-}
 
 .bakeImages {
     display: flex;
@@ -63,6 +57,7 @@
 
 .bakeImgWrapper {
     width: 33%;
+    object-fit: cover;
 }
 
 .bakeImg {
@@ -93,7 +88,7 @@
 
 .sliderImg {
     width: 80%;
-    height: 80vh;
+
 }
 
 .close {
