@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 5rem;
+  /* height: 5rem; */
   background-color: #8a2b06;
   display: flex;
   justify-content: space-between;
@@ -30,4 +30,19 @@
   height: 100%;
   object-fit: cover;
   transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+}
+
+
+@media only screen and (max-width: 850px){
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10%;
+  }
+  
+  .header a{
+    margin-bottom: 1%;
+  }
 }
