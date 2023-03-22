@@ -1,6 +1,7 @@
 import { useReducer } from "react";
 import CartContext from "./cart-context";
 
+// 一个初始状态用于reducer
 const defaultCartState = {
     items: [],
     totalAmount: 0
@@ -21,6 +22,7 @@ const cartReducer = (state, action) => {
             updatedItems = [...state.items];
             updatedItems[existingCartItemIndex] = updatedItem;
         } else {
+            // 类似push,但是会加入新的array
             updatedItems = state.items.concat(action.item);
         }
 
@@ -58,6 +60,7 @@ const cartReducer = (state, action) => {
 };
 
 const CartProvider = props => {
+    // 用useReducer来管理state
     const [carState, dispatchCartAction] = useReducer(cartReducer, defaultCartState);
 
     const addItemToCartHandler = item => {
@@ -83,3 +86,4 @@ const CartProvider = props => {
 }
 
 export default CartProvider
+

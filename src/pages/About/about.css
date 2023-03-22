@@ -1,0 +1,20 @@
+.about {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about img {
+    width: 50%;
+}
